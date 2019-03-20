@@ -7,11 +7,11 @@ body {
     opacity: 0.8;
 }
 #home-section {
-    background: url(../img/varit.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    min-height: 700px; 
+    /* background: url(../img/varit.jpg); */
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-attachment: fixed!important;
+    min-height: 700px!important; 
 }
 
 #home-section .dark-overlay {
