@@ -7,7 +7,7 @@ body {
     opacity: 0.8;
 }
 #home-section {
-    background: url(../img/architect.jpg);
+    background: url(../img/varit.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -25,4 +25,12 @@ body {
 
 #home-section .home-inner {
     padding-top: 150px;
+}
+.divider {
+    max-width: 4.25rem;
+    border-width: 0.2rem;
+    border-color: #008ed6;
+}
+.slog {
+    font-size: 20px;
 }
