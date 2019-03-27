@@ -13,17 +13,17 @@ $(document).ready(function() {
         setTimeout(slideShow, 8000);
       });
   }
-  // Scrool down 
-  $('.shkoPosht').click(function(e) {
-    // Preventing default action of the event
-    e.preventDefault();
-    // Getting the height of the document
-    let n = $(document).height();
-    $('html, body').animate({ scrollTop: n }, 1500);
-//                                       |    |
-//                                       |    --- duration (milliseconds) 
-//                                       ---- distance from the top
-});
+//   // Scrool down 
+//   $('.shkoPosht').click(function(e) {
+//     // Preventing default action of the event
+//     e.preventDefault();
+//     // Getting the height of the document
+//     let n = $(document).height();
+//     $('html, body').animate({ scrollTop: n }, 1500);
+// //                                       |    |
+// //                                       |    --- duration (milliseconds) 
+// //                                       ---- distance from the top
+// });
 });
 
 // $(function () {
