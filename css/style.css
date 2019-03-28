@@ -13,6 +13,11 @@ body {
 .navbar-dark .navbar-nav .nav-link:hover {
   color: #fff;
 }
+
+.navbar .nav-item.active {
+  border-left: #008ed6 3px solid;
+}
+
 #home-section {
   /* background: url(../img/varit.jpg); */
   background-repeat: no-repeat !important;
@@ -163,12 +168,12 @@ body {
   color: #555555;
 }
 .what_we_area .construction_iner {
-  padding-top: 50px;
+  padding-top: 40px;
   padding-bottom: 70px;
 }
 .what_we_area .construction_iner .construction {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 .what_we_area .construction_iner .construction .cns-img {
   z-index: 2;
