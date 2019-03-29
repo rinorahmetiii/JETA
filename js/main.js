@@ -13,6 +13,7 @@ $(document).ready(function() {
         setTimeout(slideShow, 8000);
       });
   }
+  document.getElementById("profibuild").style.backgroundPosition = "center top";
 //   // Scrool down 
 //   $('.shkoPosht').click(function(e) {
 //     // Preventing default action of the event

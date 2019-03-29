@@ -228,20 +228,23 @@ body {
 /*----------------Proffesionl Builder----------------------------------*/
 #profibuild {
   margin: auto;
-      background: url(../img/webuildarch.jpg);
-      background-repeat: no-repeat !important;
-      background-size: cover !important;
-      background-attachment: fixed !important;
-      min-height:auto!important;
-}
-.professional_builder {
-  background: #f5f5f5;
   padding-top: 80px;
   padding-bottom: 50px;
+  background: url(../img/webuildarch.jpg);
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  min-height:auto!important;
+}
+.light-overlay {
+  width: 100%;
+  min-height: auto;
+  background: rgba(255, 255, 255, 0.80 );
 }
 .professional_builder .builder_all .builder {
   text-align: center;
-  padding-bottom: 25px;
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .professional_builder .builder_all .builder i {
   font-size: 48px;
