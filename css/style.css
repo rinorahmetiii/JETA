@@ -286,4 +286,7 @@ body {
   .mrenaservisces {
     margin-top: auto;
   }
+  .light-overlay {
+    width: 90%;
+  }
 }
