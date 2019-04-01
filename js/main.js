@@ -25,6 +25,13 @@ $(document).ready(function() {
 // //                                       |    --- duration (milliseconds) 
 // //                                       ---- distance from the top
 // });
+
+
+// Remove light-overlay class when on small devices
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  $('.container').removeClass("light-overlay");
+ };
+
 });
 
 // $(function () {
