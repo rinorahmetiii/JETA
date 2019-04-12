@@ -287,7 +287,8 @@ box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
     margin-top: auto;
   }
   .light-overlay {
-    background: none;
+    background: none!important;
+    box-shadow: none!important;
   }
   .builder {
     margin: 15px;
