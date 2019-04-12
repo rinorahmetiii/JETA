@@ -342,6 +342,18 @@ background-color: rgb(52, 58, 64 , 0.8)!important;
   height: 2px;
   background: #fff;
 }
+.loadmoreprojekte {
+  border: 2px solid #fff;
+  border-radius: 0;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #fff;
+  padding: .5rem 1.6rem;
+  position: relative;
+  background: transparent;
+  margin-bottom: 50px;
+}
 
 /* --------------------End of Portfolio - Projektet ------------------------------ */
 
