@@ -1,6 +1,6 @@
 body {
   /* overflow-x: hidden; */
-  background: #333;
+  /* background: #333; */
   color: #fff;
 }
 .navbar {
@@ -264,10 +264,16 @@ box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
 /*------------------End of proffesional builder--------------------------------*/
 
 
-.section-margin {
+/* --------------------Portfolio - Projektet--------------------------------------- */
+#projektet {
+  padding-top: 160px;
+background-color: rgb(52, 58, 64 , 0.8)!important;
+}
+
+/* .section-margin {
   margin-top: 60px;
   margin-bottom: 60px; 
-}
+} */
 .section-intro__title {
   font-size: 0.75rem;
   color: #f9cc41;
@@ -325,7 +331,7 @@ box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
   position: relative;
   background: transparent;
 }
-.btn--rightBorder:after {
+.btnkostum:after {
   content: "";
   display: block;
   position: absolute;
@@ -337,6 +343,7 @@ box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
   background: #fff;
 }
 
+/* --------------------End of Portfolio - Projektet ------------------------------ */
 
 
 @media (max-width: 767px) {
