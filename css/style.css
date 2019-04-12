@@ -14,9 +14,6 @@ body {
   color: #fff;
 }
 
-.navbar .nav-item.active {
-  border-left: #008ed6 3px solid;
-}
 
 #home-section {
   /* background: url(../img/varit.jpg); */
@@ -240,6 +237,9 @@ body {
   width: 100%;
   min-height: auto;
   background: rgba(255, 255, 255, 0.80 );
+  -webkit-box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
 }
 .professional_builder .builder_all .builder {
   text-align: center;
