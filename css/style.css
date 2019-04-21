@@ -33,7 +33,10 @@ body {
 }
 
 #home-section .home-inner {
-  padding-top: 190px;
+  position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 .divider {
   max-width: 4.25rem;
@@ -360,11 +363,11 @@ background-color: rgb(52, 58, 64 , 0.8)!important;
 
 @media (max-width: 767px) {
   .godownn {
-    margin-top: 20px;
+    margin-top: auto;
   }
-  #home-section .home-inner {
+  /* #home-section .home-inner {
     padding-top: 100px;
-  }
+  } */
 
   .home-inner h1 {
     font-size: 45px;
