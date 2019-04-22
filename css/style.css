@@ -169,7 +169,7 @@ body {
 }
 .what_we_area .construction_iner {
   padding-top: 40px;
-  padding-bottom: 70px;
+  padding-bottom: 120px;
 }
 .what_we_area .construction_iner .construction {
   text-align: center;
@@ -369,8 +369,15 @@ background-color: #343a40!important
 }
 .contact-inner {
   padding-top: 110px;
+  padding-bottom: 110px;
 }
-
+.contactinf {
+  font-size: 20px;
+  color: #6c757d!important;
+}
+.samec {
+  color: #008ed6!important;
+}
 
 
 /*---------------------End of Contact section-------------------*/
