@@ -155,7 +155,7 @@ body {
   margin: auto;
 }
 .mrenaservices {
-  margin-top: 110px;
+  padding-top: 110px;
 }
 .what_we_area {
   background: #fff;
@@ -270,7 +270,8 @@ box-shadow: 10px 10px 13px -8px rgba(0,0,0,0.75);
 /* --------------------Portfolio - Projektet--------------------------------------- */
 #projektet {
   padding-top: 160px;
-background-color: rgb(52, 58, 64 , 0.8)!important;
+/* background-color: rgb(52, 58, 64 , 0.8)!important; */
+background-color: #343a40!important
 }
 
 /* .section-margin {
@@ -359,6 +360,20 @@ background-color: rgb(52, 58, 64 , 0.8)!important;
 }
 
 /* --------------------End of Portfolio - Projektet ------------------------------ */
+
+
+
+/*---------------------Contact-------------------*/
+#contact h2{
+  color: #222222;
+}
+.contact-inner {
+  padding-top: 110px;
+}
+
+
+
+/*---------------------End of Contact section-------------------*/
 
 
 @media (max-width: 767px) {
