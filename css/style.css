@@ -346,6 +346,9 @@ background-color: #343a40!important
   height: 2px;
   background: #fff;
 }
+.btnkostum:hover {
+  color: #ffffff;
+}
 .loadmoreprojekte {
   border: 2px solid #fff;
   border-radius: 0;
@@ -357,6 +360,9 @@ background-color: #343a40!important
   position: relative;
   background: transparent;
   margin-bottom: 50px;
+}
+.loadmoreprojekte:hover{
+  color: #fff;
 }
 
 /* --------------------End of Portfolio - Projektet ------------------------------ */
