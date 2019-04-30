@@ -3,6 +3,10 @@ $(document).ready(function() {
   let nextimg = 0;
 
   slideShow();
+
+  removeLightOverlay();
+
+  
   // Backround img slide
   function slideShow() {
     if (nextimg >= images.length) {
@@ -13,9 +17,11 @@ $(document).ready(function() {
         setTimeout(slideShow, 8000);
       });
   }
-  
+
   // Remove light-overlay class when on small devices
-  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-    $('.container').removeClass("light-overlay");
-  };
+  function removeLightOverlay() {
+    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+      $('.container').removeClass("light-overlay");
+    }
+  }
 });
